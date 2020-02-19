@@ -1,0 +1,30 @@
+header{
+    grid-area: h;
+    background-color: black;
+}   
+main{
+    grid-area: m;
+    border: black 1px solid;
+}
+aside{
+    grid-area: a;
+    border: red 1px solid;
+}
+section{
+    grid-area: s;
+    border: red 1px solid;
+}
+footer{
+    grid-area: f;
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 10vh 70vh 10vh; 
+    grid-template-areas:"h h h"
+                        "s m a"
+                        "f f f";
+
+}
