@@ -45,10 +45,17 @@ section h1{
     font-size: 50px;
 }
 section div{
+    display: grid;
     justify-self: center;
     width: 200px;
     height: 200px;
     border: white 1px solid;
+    padding: 10px;
+    
+}
+section div h1{
+   font-size: 100px;
+   background-color: red;
     
 }
 .container{
