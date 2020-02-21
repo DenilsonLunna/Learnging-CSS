@@ -4,9 +4,18 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+hr{
+    height: 2px;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
 body{
     background-color: #b5c4c9;
+}
+.textMain{
+    color: #00000088;
 }
 header{
     display: grid;
@@ -28,9 +37,62 @@ main{
     
 }
 aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: a;
-    background-color: #000000cc;
+    
 }
+#stage{
+    font-size: 50px;
+    margin-top: 30px;
+    
+}
+
+#stageNum{
+    color: #000000cc;
+    margin-bottom: 30px;
+}
+#time{
+    font-size: 40px;
+    color: #000000cc;
+}
+.best{
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    align-items: center;
+    
+}
+.best h3{
+    font-size: 40px;
+}
+.best h2{
+    margin-left: 75px;
+    font-size: 50px;
+}
+.score{
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    align-items: center;
+}
+.score h3{
+    font-size: 40px;
+}
+.score h2{
+    margin-left: 50px;
+    font-size: 50px;
+}
+aside h1{
+    font-size: 100px;
+}
+
+
 section{
     display: flex;
     flex-direction: column;
@@ -39,7 +101,6 @@ section{
 }
 section h1{
     text-align: center;
-    color: #00000088;
     margin-top: 30px;
     font-size: 50px;
 }
@@ -57,10 +118,7 @@ section div{
 section div h1{
    font-size: 130px; 
    margin-top: 0;
-   color:#000000aa;
-   
-
-   
+   color:#000000aa; 
 }
 section div p{
     font-size: 20px;
@@ -76,6 +134,7 @@ section div p{
                          "s m a";
 }
 .itemsGrid{
+    box-shadow: 0px 15px 30px #000000aa;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
