@@ -11,7 +11,7 @@ body{
 header{
     display: grid;
     grid-area: h;
-    background-color: #000000aa;
+    background-color: #303030;
     
 }
 header h1{ 
@@ -32,11 +32,10 @@ aside{
     background-color: #000000cc;
 }
 section{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: s;
-    
-    
-    
 }
 section h1{
     text-align: center;
@@ -45,17 +44,28 @@ section h1{
     font-size: 50px;
 }
 section div{
-    display: grid;
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    
     width: 200px;
     height: 200px;
+    margin-top: 23px;
     border: white 1px solid;
     padding: 10px;
-    
+    box-shadow: 0px 15px 30px #00000066; 
 }
 section div h1{
-   font-size: 100px;
-   background-color: red;
+   font-size: 130px; 
+   margin-top: 0;
+   color:#000000aa;
+   
+
+   
+}
+section div p{
+    font-size: 20px;
+    color: #00000088;
+    font-weight: bold;
     
 }
 .container{
@@ -69,7 +79,7 @@ section div h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: #000000cc;
+    background-color: #303030;
     gap: 10px;
     width: 500px;
     height: 500px;
