@@ -110,7 +110,7 @@ section div{
     
     width: 200px;
     height: 200px;
-    margin-top: 23px;
+    margin-top: 31px;
     border: white 1px solid;
     padding: 10px;
     box-shadow: 0px 15px 30px #00000066; 
@@ -136,12 +136,12 @@ section div p{
 .itemsGrid{
     box-shadow: 0px 15px 30px #000000aa;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: #303030;
     gap: 10px;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600x;
     align-self: center;
     justify-self: center;
     padding: 10px;
@@ -152,6 +152,7 @@ section div p{
     color: white;
     padding: 5px;
     font-size: 16px;
+    font-weight: bold;
 }
 .cart h1{
     text-align: center;
