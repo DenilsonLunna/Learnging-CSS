@@ -111,6 +111,7 @@ function clickCart(id) {
     verifyPoint();
 }
 function verifyPoint() {
+    //Falta apagar a lista , pq não pode passar de 2 elementos
     if (cartsChoice.length == 2) {
         console.log("Entrou");
         var cart1 = cartsChoice[0];
