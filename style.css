@@ -131,8 +131,10 @@ section div p{
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 17vh 100%;
     grid-template-areas: "h h h" 
-                         "s m a";
+                         "s m a"
+                         "f f f";
 }
+
 .itemsGrid{
     box-shadow: 0px 15px 30px #000000aa;
     display: grid;
@@ -164,77 +166,12 @@ section div p{
     background-color: #00000033;
     color: #ffffff;
 }
-
-
-@media screen and (max-width: 1200px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .item:nth-child(1){
-        order: 1;
-    }
-    .item:nth-child(2){
-        order: 4;
-    }
-    .item:nth-child(3){
-        order: 3;
-    }
-    .item:nth-child(4){
-        order: 2;
-    }
-    section{
-        display: none;
-    }
-
-    #stage{
-        font-size: 40px;
-        margin-top: 20px;
-        
-    }
-    
-    #stageNum{
-        color: #000000cc;
-        margin-bottom: 1px;
-    }
-    #time{
-        font-size: 30px;
-        color: #000000cc;
-    }
-    .best{
-        margin-top: 1px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: row;
-        align-self: start;
-        align-items: center;
-        
-    }
-    .best h3{
-        font-size: 40px;
-    }
-    .best h2{
-        margin-left: 75px;
-        font-size: 50px;
-    }
-    .score{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: row;
-        align-self: start;
-        align-items: center;
-    }
-    .score h3{
-        font-size: 40px;
-    }
-    .score h2{
-        margin-left: 52px;
-        font-size: 50px;
-    }
-
+footer{
+    grid-area: f;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
 }

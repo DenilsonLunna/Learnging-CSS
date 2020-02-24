@@ -1,0 +1,82 @@
+@media screen and (max-width: 1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .item:nth-child(1){
+        order: 1;
+    }
+    .item:nth-child(2){
+        order: 4;
+    }
+    .item:nth-child(3){
+        order: 3;
+    }
+    .item:nth-child(4){
+        order: 2;
+    }
+    .item:nth-child(5){
+        order: 5;
+    }
+    section{
+        display: none;
+    }
+
+    #stage{
+        font-size: 30px;
+        margin-top: 20px;
+        
+    }
+    
+    #stageNum{
+        margin-bottom: 1px;
+        font-size: 60px;
+    }
+    #time{
+        font-size: 20px;
+    }
+    .best{
+        margin-top: 1px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    .best h3{
+        font-size: 30px;
+    }
+    .best h2{
+        margin-left: 75px;
+        font-size: 40px;
+    }
+    .score{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1px;
+    }
+    .score h3{
+        font-size: 30px;
+    }
+    .score h2{
+        margin-left: 57px;
+        font-size: 40px;
+    }
+
+    footer{
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .itemsGrid{
+        width: 400px;
+    }
+    .cart h1{ 
+        font-size: 50px;
+      
+    
+    }
+
+
+
+
+}
